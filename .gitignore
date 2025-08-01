@@ -1,10 +1,53 @@
-# Python-generated files
+# Python cache files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+# Distribution/build artifacts
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
 
 # Virtual environments
-.venv
+.venv/
+env/
+ENV/
+env.bak/
+venv/
+.uv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# VSCode project settings
+.vscode/
+
+# mypy/mypy_cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# dotenv environment files (🔒 secret keys!)
+.env
+.env.*
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and other
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
